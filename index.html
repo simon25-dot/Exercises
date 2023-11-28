@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Tracker</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chart-container">
+      <canvas id="productChart" width="800" height="400"></canvas>
+      <form id="productForm" class="hidden">
+        <h1>Product Tracker</h1>
+        <div class="form-columns">
+          <label for="productName">Product Name:</label>
+          <input type="text" id="productName" name="productName">
+        </div>
+        <div class="form-columns">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity">
+        </div>
+        <div class="form-columns">
+          <label for="saleWeek">Sale Week:</label>
+          <input type="number" id="saleWeek" name="saleWeek">
+        </div>
+        <div class="form-columns">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </div>
+        <button type="button" onclick="addData()">Add Data</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
